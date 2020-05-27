@@ -28,7 +28,8 @@ class App extends React.Component{
         <Cards data={data}/> 
          <CountryPicker handleCountryChange={this.handleCountryChange}/>
         <Chart data={data} country={country}/>
-      
+        <div style={{ background: 'aquamarine',width:'100%',height:'30px',marginTop:'5px',
+      fontSize:'20px',textAlign:'center' }}> Designed by @Cheque_Koluoch</div>
       </div>
     )
   }
